@@ -25,6 +25,10 @@
 #include "stm32_wpan_common.h"
 #include "tl.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /* Exported defines -----------------------------------------------------------*/
 typedef enum
 {
@@ -185,5 +189,9 @@ void hci_init(void(* UserEvtRx)(void* pData), void* pConf);
  * END OF SECTION - INTERFACES USED BY THE BLE DRIVER
  *********************************************************************************************************************
  */
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* __TL_BLE_HCI_H_ */
