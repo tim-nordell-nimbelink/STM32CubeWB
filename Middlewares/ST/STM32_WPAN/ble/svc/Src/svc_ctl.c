@@ -20,6 +20,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "common_blesvc.h"
+#include "stm32wbxx_hal_def.h"
 
 /* Private typedef -----------------------------------------------------------*/
 typedef struct
